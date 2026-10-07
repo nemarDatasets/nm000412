@@ -1,0 +1,111 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Christina M. Merrick": {
+      "orcid": "0000-0003-4966-9138"
+    },
+    "Tanner C. Dixon": {
+      "orcid": "0000-0003-3151-3362"
+    },
+    "Assaf Breska": {
+      "orcid": "0000-0002-6233-073X"
+    },
+    "Jack J. Lin": {},
+    "Edward F. Chang": {
+      "orcid": "0000-0003-2480-4700"
+    },
+    "David King-Stephens": {},
+    "Kenneth D. Laxer": {},
+    "Peter B. Weber": {},
+    "Jose M. Carmena": {},
+    "Robert T. Knight": {},
+    "Richard B. Ivry": {
+      "orcid": "0000-0003-4728-5130"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.4761390",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.7554/eLife.69977",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2021.05.01.442295",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000412",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000412",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Institutes of Health",
+      "award_number": "NS097480"
+    }
+  ],
+  "title": "ECoG hemispheric asymmetry during reaching (Merrick et al. 2022): authors' 1000 Hz intracranial exports with reach kinematics",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "12.12 GB (121 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".gz",
+    ".json",
+    ".mat",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "Intracranial electrocorticography (ECoG) recordings from six patients with intractable epilepsy implanted with subdural grids, three with left-hemisphere and three with right-hemisphere implants. Patients performed an instructed-delay reaching task on a touchscreen with each arm, and the dataset provides 1000 Hz neural exports together with reach kinematics. It is a BIDS repackaging of the authors' public release supporting the study of left hemisphere dominance for bilateral kinematic encoding.",
+  "methods_description": "Recordings were made at UC Irvine (5000 Hz, Nihon Kohden), UCSF (3052 Hz, Tucker Davis Technologies) and California Pacific Medical Center (1000 Hz, Nihon Kohden). UCI and UCSF data were low-pass filtered at 500 Hz and downsampled to 1000 Hz. Patients performed an instructed-delay reaching task with two blocks of 40 trials per arm in counterbalanced order. Kinematics (position, speed, x, y, z, theta, phi) are provided at 100 Hz.",
+  "keywords": [
+    {
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+    },
+    {
+      "term": "ECoG"
+    },
+    {
+      "term": "reaching"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "kinematics"
+    },
+    {
+      "term": "hemispheric asymmetry"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    }
+  ],
+  "source_hash": "1b4e6a4d819225b6e245f3f097df91b01465c230edecd881bc199cfd9138e1d6"
+}
