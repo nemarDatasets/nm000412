@@ -1,0 +1,6 @@
+{
+  "units": {"Description": "Not stated in the release (written as n/a; BrainVision header 'unscaled'). Magnitudes differ by site: the UCSF and CPMC exports (sub-L1, sub-L2, sub-R5, sub-R6) have median absolute values of about 5e-6 to 3e-5, the UCI exports (sub-L3, sub-R4) about 20-40."},
+  "type": {"Description": "ECOG unless the release electrode-type list (given only for sub-L1 and sub-L2) says 'depth' (then SEEG). For sub-L3 and sub-R4-R6 the release gives no electrode types; all channels are typed ECOG following the release description (patients 'implanted with subdural grids'), although some electrode names (e.g. RAH/LAH/RPH/LPH, LAM/LHH, LIHA/RIHA) look like depth electrodes."},
+  "source_long_name": {"Description": "Second label list of SDATA.info.channel_labels (sub-L1, sub-L2 only)"},
+  "source_electrode_type": {"Description": "Third label list of SDATA.info.channel_labels: electrode type as given in the release (sub-L1, sub-L2 only)"}
+}

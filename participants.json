@@ -1,0 +1,27 @@
+{
+  "participant_id": {
+    "Description": "BIDS label = patient ID of the release (L1-L3: left-hemisphere implants; R4-R6: right-hemisphere implants)"
+  },
+  "implant_hemisphere": {
+    "Description": "Hemisphere of the implant (release file names)"
+  },
+  "age": {
+    "Description": "Age in years from Table 1 of Merrick et al. 2022 for L1-L3. Table 1 labels the right-hemisphere patients R1-R3 (ages 26, 32, 34; all right-handed) while the release uses R4-R6; the correspondence is not stated, so R4-R6 are n/a.",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Not given per patient (paper: two of six patients female)"
+  },
+  "handedness": {
+    "Description": "Handedness from Table 1 (L1-L3); R4-R6 n/a for the reason given under age"
+  },
+  "group": {
+    "Description": "Patient with intractable epilepsy implanted for clinical monitoring",
+    "Levels": {
+      "patient": "epilepsy patient"
+    }
+  },
+  "recording_site": {
+    "Description": "Hospital, inferred from the release session codes (EC = UCSF, IR = UCI, CP = CPMC) and the stored analog-channel rates; matches the paper's 2 patients per site"
+  }
+}

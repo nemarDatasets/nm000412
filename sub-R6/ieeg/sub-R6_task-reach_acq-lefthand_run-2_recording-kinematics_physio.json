@@ -1,0 +1,35 @@
+{
+  "SamplingFrequency": 100.0,
+  "StartTime": 0.0,
+  "Columns": [
+    "position",
+    "speed",
+    "position_x",
+    "position_y",
+    "position_z",
+    "theta",
+    "phi"
+  ],
+  "Description": "Release kin_mat (7 kinematic variables x time). The paper estimated the movement profiles from the button/touch times with a beta-distribution velocity model at 100 Hz. StartTime 0 assumes the kinematics start with the neural export (lengths agree at 10:1 to within one sample); the release does not state the alignment.",
+  "position": {
+    "Description": "Position across all three dimensions (release description)"
+  },
+  "speed": {
+    "Description": "Speed"
+  },
+  "position_x": {
+    "Description": "Position in X"
+  },
+  "position_y": {
+    "Description": "Position in Y"
+  },
+  "position_z": {
+    "Description": "Position in Z (axis between participant and touchscreen)"
+  },
+  "theta": {
+    "Description": "Spherical angle theta (separates targets horizontally)"
+  },
+  "phi": {
+    "Description": "Spherical angle phi (separates targets vertically)"
+  }
+}

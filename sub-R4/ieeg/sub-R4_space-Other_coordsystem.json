@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "n/a",
+  "iEEGCoordinateSystemDescription": "No electrode coordinates are included in the source release (Zenodo 4761390). The paper localised electrodes by co-registering post-operative CT to pre-operative MRI (Stolk et al. 2018) but did not release positions; x, y, z are n/a."
+}

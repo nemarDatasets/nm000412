@@ -1,0 +1,2 @@
+1.0.0 2026-10-08
+  - Initial BIDS-iEEG derivative packaging of Zenodo record 4761390 (no signal processing by the converter).

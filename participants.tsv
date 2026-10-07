@@ -1,0 +1,7 @@
+participant_id	implant_hemisphere	age	sex	handedness	group	recording_site
+sub-L1	left	36	n/a	Right	patient	University of California, San Francisco (UCSF) Medical Center
+sub-L2	left	26	n/a	Right	patient	University of California, San Francisco (UCSF) Medical Center
+sub-L3	left	55	n/a	Ambidextrous	patient	University of California, Irvine (UCI) Medical Center
+sub-R4	right	n/a	n/a	n/a	patient	University of California, Irvine (UCI) Medical Center
+sub-R5	right	n/a	n/a	n/a	patient	California Pacific Medical Center (CPMC), San Francisco
+sub-R6	right	n/a	n/a	n/a	patient	California Pacific Medical Center (CPMC), San Francisco

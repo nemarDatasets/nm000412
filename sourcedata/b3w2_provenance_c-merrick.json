@@ -1,0 +1,726 @@
+{
+  "runs": [
+    {
+      "sub": "L1",
+      "acq": "lefthand",
+      "run": "1",
+      "source": "L1_LeftGrid_LeftHand_1.mat",
+      "kin": "L1_Kin_LeftHand_1.mat",
+      "shape": [
+        258,
+        276901
+      ],
+      "kin_shape": [
+        27691,
+        7
+      ],
+      "session_code": "EC197_LC1_1"
+    },
+    {
+      "sub": "L1",
+      "acq": "lefthand",
+      "run": "2",
+      "source": "L1_LeftGrid_LeftHand_2.mat",
+      "kin": "L1_Kin_LeftHand_2.mat",
+      "shape": [
+        258,
+        294251
+      ],
+      "kin_shape": [
+        29426,
+        7
+      ],
+      "session_code": "EC197_LC1_2"
+    },
+    {
+      "sub": "L1",
+      "acq": "righthand",
+      "run": "1",
+      "source": "L1_LeftGrid_RightHand_1.mat",
+      "kin": "L1_Kin_RightHand_1.mat",
+      "shape": [
+        258,
+        283218
+      ],
+      "kin_shape": [
+        28322,
+        7
+      ],
+      "session_code": "EC197_RC1_1"
+    },
+    {
+      "sub": "L1",
+      "acq": "righthand",
+      "run": "2",
+      "source": "L1_LeftGrid_RightHand_2.mat",
+      "kin": "L1_Kin_RightHand_2.mat",
+      "shape": [
+        258,
+        289694
+      ],
+      "kin_shape": [
+        28970,
+        7
+      ],
+      "session_code": "EC197_RC1_3"
+    },
+    {
+      "sub": "L2",
+      "acq": "lefthand",
+      "run": "1",
+      "source": "L2_LeftGrid_LeftHand_1.mat",
+      "kin": "L2_Kin_LeftHand_1.mat",
+      "shape": [
+        172,
+        360933
+      ],
+      "kin_shape": [
+        36094,
+        7
+      ],
+      "session_code": "EC194_LC1_1"
+    },
+    {
+      "sub": "L2",
+      "acq": "lefthand",
+      "run": "2",
+      "source": "L2_LeftGrid_LeftHand_2.mat",
+      "kin": "L2_Kin_LeftHand_2.mat",
+      "shape": [
+        172,
+        335907
+      ],
+      "kin_shape": [
+        33591,
+        7
+      ],
+      "session_code": "EC194_LC1_2"
+    },
+    {
+      "sub": "L2",
+      "acq": "righthand",
+      "run": "1",
+      "source": "L2_LeftGrid_RightHand_1.mat",
+      "kin": "L2_Kin_RightHand_1.mat",
+      "shape": [
+        172,
+        313920
+      ],
+      "kin_shape": [
+        31392,
+        7
+      ],
+      "session_code": "EC194_RC1_2"
+    },
+    {
+      "sub": "L2",
+      "acq": "righthand",
+      "run": "2",
+      "source": "L2_LeftGrid_RightHand_2.mat",
+      "kin": "L2_Kin_RightHand_2.mat",
+      "shape": [
+        172,
+        463194
+      ],
+      "kin_shape": [
+        46320,
+        7
+      ],
+      "session_code": "EC194_RC1_3"
+    },
+    {
+      "sub": "L3",
+      "acq": "lefthand",
+      "run": "1",
+      "source": "L3_LeftHemisphere_LeftHand_1.mat",
+      "kin": "L3_Kin_LeftHand_1.mat",
+      "shape": [
+        135,
+        351807
+      ],
+      "kin_shape": [
+        35181,
+        7
+      ],
+      "session_code": "IR89_LC1_1"
+    },
+    {
+      "sub": "L3",
+      "acq": "lefthand",
+      "run": "2",
+      "source": "L3_LeftHemisphere_LeftHand_2.mat",
+      "kin": "L3_Kin_LeftHand_2.mat",
+      "shape": [
+        135,
+        303565
+      ],
+      "kin_shape": [
+        30357,
+        7
+      ],
+      "session_code": "IR89_LC1_2"
+    },
+    {
+      "sub": "L3",
+      "acq": "righthand",
+      "run": "1",
+      "source": "L3_LeftHemisphere_RightHand_1.mat",
+      "kin": "L3_Kin_RightHand_1.mat",
+      "shape": [
+        135,
+        336061
+      ],
+      "kin_shape": [
+        33607,
+        7
+      ],
+      "session_code": "IR89_RC1_1"
+    },
+    {
+      "sub": "L3",
+      "acq": "righthand",
+      "run": "2",
+      "source": "L3_LeftHemisphere_RightHand_2.mat",
+      "kin": "L3_Kin_RightHand_2.mat",
+      "shape": [
+        135,
+        339383
+      ],
+      "kin_shape": [
+        33939,
+        7
+      ],
+      "session_code": "IR89_RC1_2"
+    },
+    {
+      "sub": "R4",
+      "acq": "lefthand",
+      "run": "1",
+      "source": "R4_RightHemisphere_LeftHand_1.mat",
+      "kin": "R4_Kin_LeftHand_1.mat",
+      "shape": [
+        112,
+        310000
+      ],
+      "kin_shape": [
+        31000,
+        7
+      ],
+      "session_code": "IR76_LC1_1"
+    },
+    {
+      "sub": "R4",
+      "acq": "lefthand",
+      "run": "2",
+      "source": "R4_RightHemisphere_LeftHand_2.mat",
+      "kin": "R4_Kin_LeftHand_2.mat",
+      "shape": [
+        112,
+        328301
+      ],
+      "kin_shape": [
+        32831,
+        7
+      ],
+      "session_code": "IR76_LC1_2"
+    },
+    {
+      "sub": "R4",
+      "acq": "righthand",
+      "run": "1",
+      "source": "R4_RightHemisphere_RightHand_1.mat",
+      "kin": "R4_Kin_RightHand_1.mat",
+      "shape": [
+        112,
+        325000
+      ],
+      "kin_shape": [
+        32500,
+        7
+      ],
+      "session_code": "IR76_RC1"
+    },
+    {
+      "sub": "R4",
+      "acq": "righthand",
+      "run": "2",
+      "source": "R4_RightHemisphere_RightHand_2.mat",
+      "kin": "R4_Kin_RightHand_2.mat",
+      "shape": [
+        112,
+        310000
+      ],
+      "kin_shape": [
+        31000,
+        7
+      ],
+      "session_code": "IR76_RC1_2"
+    },
+    {
+      "sub": "R5",
+      "acq": "lefthand",
+      "run": "1",
+      "source": "R5_RightHemisphere_LeftHand_1.mat",
+      "kin": "R5_Kin_LeftHand_1.mat",
+      "shape": [
+        84,
+        357869
+      ],
+      "kin_shape": [
+        35787,
+        7
+      ],
+      "session_code": "CP31_LC1_1"
+    },
+    {
+      "sub": "R5",
+      "acq": "lefthand",
+      "run": "2",
+      "source": "R5_RightHemisphere_LeftHand_2.mat",
+      "kin": "R5_Kin_LeftHand_2.mat",
+      "shape": [
+        84,
+        382530
+      ],
+      "kin_shape": [
+        38253,
+        7
+      ],
+      "session_code": "CP31_LC1_2"
+    },
+    {
+      "sub": "R5",
+      "acq": "righthand",
+      "run": "1",
+      "source": "R5_RightHemisphere_RightHand_1.mat",
+      "kin": "R5_Kin_RightHand_1.mat",
+      "shape": [
+        84,
+        373119
+      ],
+      "kin_shape": [
+        37312,
+        7
+      ],
+      "session_code": "CP31_RC1_1"
+    },
+    {
+      "sub": "R5",
+      "acq": "righthand",
+      "run": "2",
+      "source": "R5_RightHemisphere_RightHand_2.mat",
+      "kin": "R5_Kin_RightHand_2.mat",
+      "shape": [
+        84,
+        306044
+      ],
+      "kin_shape": [
+        30605,
+        7
+      ],
+      "session_code": "CP31_RC1_2"
+    },
+    {
+      "sub": "R6",
+      "acq": "lefthand",
+      "run": "1",
+      "source": "R6_RightHemisphere_LeftHand_1.mat",
+      "kin": "R6_Kin_LeftHand_1.mat",
+      "shape": [
+        87,
+        245033
+      ],
+      "kin_shape": [
+        24504,
+        7
+      ],
+      "session_code": "CP34_LC1_1"
+    },
+    {
+      "sub": "R6",
+      "acq": "lefthand",
+      "run": "2",
+      "source": "R6_RightHemisphere_LeftHand_2.mat",
+      "kin": "R6_Kin_LeftHand_2.mat",
+      "shape": [
+        87,
+        260735
+      ],
+      "kin_shape": [
+        26074,
+        7
+      ],
+      "session_code": "CP34_LC1_2"
+    },
+    {
+      "sub": "R6",
+      "acq": "righthand",
+      "run": "1",
+      "source": "R6_RightHemisphere_RightHand_1.mat",
+      "kin": "R6_Kin_RightHand_1.mat",
+      "shape": [
+        87,
+        233286
+      ],
+      "kin_shape": [
+        23329,
+        7
+      ],
+      "session_code": "CP34_RC1_1"
+    },
+    {
+      "sub": "R6",
+      "acq": "righthand",
+      "run": "2",
+      "source": "R6_RightHemisphere_RightHand_2.mat",
+      "kin": "R6_Kin_RightHand_2.mat",
+      "shape": [
+        87,
+        267853
+      ],
+      "kin_shape": [
+        26786,
+        7
+      ],
+      "session_code": "CP34_RC1_2"
+    }
+  ],
+  "sourcedata": [
+    {
+      "file": "sourcedata/zenodo-4761390/L1_Kin_LeftHand_1.mat",
+      "sha256_original": "893d94b39dc25bbc2ebd6ddeed2d8b508025337a82aef845ddb9427ea9924730",
+      "header_created_on_day_masked": true,
+      "sha256_public": "5ca9bc0cb5e76346a54b2bc67ea56024111d1cacb9c89b4f0ea84d86890e9f9f",
+      "bytes": 238012
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L1_Kin_LeftHand_2.mat",
+      "sha256_original": "8c7207ad2ecdacb562dcd3194895f8d6bcd69eaf61e34ef33fece9b4ecf84fdd",
+      "header_created_on_day_masked": true,
+      "sha256_public": "f8eb356374fd9c021c340dc7864560a20cad0a747b0bda42762b82acecfa1ee2",
+      "bytes": 237327
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L1_Kin_RightHand_1.mat",
+      "sha256_original": "d9c9aa281fcb8a358a20c035048da2ad62669f9c2226cac70bda513d7075cbef",
+      "header_created_on_day_masked": true,
+      "sha256_public": "d7da6dfe6e44ed83c671ff13353175e9c516b048ffa99cdf7c85bbc578cf7bdb",
+      "bytes": 279288
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L1_Kin_RightHand_2.mat",
+      "sha256_original": "b22683adf6b978444e88e4a8efcc116fe6156e738eef0cfbab5f0c5612fa880c",
+      "header_created_on_day_masked": true,
+      "sha256_public": "e0e5e554e58cfc8c5bb01e0df1b2843257a5a5b12816faedb34bd41c0905c975",
+      "bytes": 279876
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L1_LeftGrid_LeftHand_1.mat",
+      "sha256_original": "c2b9faa72c57a3e3f329c5e6b678680edd0edca2630ede9a8c4c27c3e250b117",
+      "header_created_on_day_masked": true,
+      "sha256_public": "d01cb697dac895f6b767766044e70dc676c0a573f67befd44ce6b9813472d8ee",
+      "bytes": 568971129
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L1_LeftGrid_LeftHand_2.mat",
+      "sha256_original": "12f3205910e7d6290b6c1c9a0061fd5814a536bde3e319fcad069159be4c508b",
+      "header_created_on_day_masked": true,
+      "sha256_public": "3fcc05d694f631a5f05b95332703b5a7a48fc87452c32df8fa48b9bd29457a07",
+      "bytes": 604573034
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L1_LeftGrid_RightHand_1.mat",
+      "sha256_original": "dff34a5c4f30fff5727fd11876eb93347d6828b437f7e8233093e584bd8bce4e",
+      "header_created_on_day_masked": true,
+      "sha256_public": "26b91edb31e9331c1db4ada25ee0c820b5c08ae271f970fa43a70ec280067705",
+      "bytes": 582102272
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L1_LeftGrid_RightHand_2.mat",
+      "sha256_original": "76e6a68ff0003c178ee137ab35285fb604a5734fce34f8e1b0b643b89c9b5002",
+      "header_created_on_day_masked": true,
+      "sha256_public": "a98e96fb70a08f44fb3562088a4df9d0bf0c90ad41603ffc39f2f69511c4cfca",
+      "bytes": 595402418
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L2_Kin_LeftHand_1.mat",
+      "sha256_original": "7cc784f0effbba90bb24c3c5531f521601a6c4da0b5d30f4718281213ff16811",
+      "header_created_on_day_masked": true,
+      "sha256_public": "a1a010d1aa2935c12f5e5dd528ac54447411fa6cee5d7258853cc5063767f8d7",
+      "bytes": 225049
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L2_Kin_LeftHand_2.mat",
+      "sha256_original": "a65c906d8d29f9cd9c2b65a99495501a1cae91d531d0bb99c8786e294b422e9d",
+      "header_created_on_day_masked": true,
+      "sha256_public": "6cf01cd4ea8fec93af24b95f4506c5c5389ce49ac1013c66083167bdc8d6b227",
+      "bytes": 236085
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L2_Kin_RightHand_1.mat",
+      "sha256_original": "fd0d10adbf5cd37494888945199f374dd8c492fa21248fd0c05ce15412d1bc22",
+      "header_created_on_day_masked": true,
+      "sha256_public": "a1928a033f1dd63bd26f125cc1288360317b737af642c5566bd1843ae11f20fe",
+      "bytes": 250084
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L2_Kin_RightHand_2.mat",
+      "sha256_original": "a9a505bd2e0a8fa7e9318e9b7f9c5d4b5875c7b2eafeaf4d46385facf42a2d2c",
+      "header_created_on_day_masked": true,
+      "sha256_public": "ce66adad2e9546c962d08246a5090bcb1ae02e88392c67984678e4be0861b35d",
+      "bytes": 289355
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L2_LeftGrid_LeftHand_1.mat",
+      "sha256_original": "8b62ea0fec10a94033ce53f80ae3cf528d444c586153062f2c75eb68600d66fc",
+      "header_created_on_day_masked": true,
+      "sha256_public": "6edcc3b7ee611691bdc160937333c5478053fe5f3ecc3f15bccb4bb037e26885",
+      "bytes": 502438472
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L2_LeftGrid_LeftHand_2.mat",
+      "sha256_original": "760ec09097965b4705c453c3617e72c9d76328f46b4fb6badb62cdbc2afcff08",
+      "header_created_on_day_masked": true,
+      "sha256_public": "a47e39ed7125a07b2a7f09ed9725f17db12b4e0bf128a2373714655857bb07b4",
+      "bytes": 468233777
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L2_LeftGrid_RightHand_1.mat",
+      "sha256_original": "86a84b62da463d8e79213cd29baad9136eb91e3e77cbd2dba9fbc9bfd2e966db",
+      "header_created_on_day_masked": true,
+      "sha256_public": "60b848a207304cb5c31cf0a68c13d81718e36875726f983ae466bfa785478b3b",
+      "bytes": 437119256
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L2_LeftGrid_RightHand_2.mat",
+      "sha256_original": "0070c1b7985d4c4a8e3493806539c0d7720161b59ad1d9dfa9f049a973dcceb3",
+      "header_created_on_day_masked": true,
+      "sha256_public": "fab9bf91127bf7c67f2d9378172483bdd825c2a342f3c8608ebdab94c7960d8b",
+      "bytes": 645181045
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L3_Kin_LeftHand_1.mat",
+      "sha256_original": "f3494efa86c797236027f2dbc2c926604cd0a6017abda1298400153288893665",
+      "header_created_on_day_masked": true,
+      "sha256_public": "43a49f0f00f470b84c89bde80081c482295a15b721c2e2cbbe9c69979746b234",
+      "bytes": 341698
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L3_Kin_LeftHand_2.mat",
+      "sha256_original": "c15df6aef73f2b1d874ec77b3f55a2219c6c20d0bb20507f04b0e3acd25787da",
+      "header_created_on_day_masked": true,
+      "sha256_public": "07bd1dfec9b02baceeb1132daee6fe01282d8640e067271bd738f11b63737277",
+      "bytes": 349097
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L3_Kin_RightHand_1.mat",
+      "sha256_original": "29afd79a06e39f896cfb11b13db233c51f35fe49537a49fde4d46cac36808d33",
+      "header_created_on_day_masked": true,
+      "sha256_public": "6eaf7ab6b3466030d013f892f761d1648cb56a7ebd998637e5d90f4f16e634a6",
+      "bytes": 386151
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L3_Kin_RightHand_2.mat",
+      "sha256_original": "562c20bd13880eb58213d45817c9d4c64f66d15cadd8c3592efecb288c27fe77",
+      "header_created_on_day_masked": true,
+      "sha256_public": "3889fe0c9235fbcaa9abd81c30c15de78dc1c932dcb00355a88aa354dc9de1b1",
+      "bytes": 376910
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L3_LeftHemisphere_LeftHand_1.mat",
+      "sha256_original": "aedaf10a57bd379e4e0da477e85ff32d029dfe0a57e267a368b4ceea8ee6fa80",
+      "header_created_on_day_masked": true,
+      "sha256_public": "f6c3b037244a5af4730594cd8b00fdc813e5be83c4082ff323ceaf0c8587a124",
+      "bytes": 371836840
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L3_LeftHemisphere_LeftHand_2.mat",
+      "sha256_original": "8b7e7101102218843170f86d6d75cc4a8d7278b871137967743c2ce327e071de",
+      "header_created_on_day_masked": true,
+      "sha256_public": "0c6ae44b175b6a4e317d4e8d451151d254be4af5ce10b0f92a2d0a854116117a",
+      "bytes": 320818746
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L3_LeftHemisphere_RightHand_1.mat",
+      "sha256_original": "11f8af0cf5918bfb9babf2808ed25551ddac22d397da6b408ab7e37ee3954c71",
+      "header_created_on_day_masked": true,
+      "sha256_public": "1fa4401b52fd9aabe41923d2f6a953533c56ed26ba1ff734be9a06c4bd0054b2",
+      "bytes": 355091376
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/L3_LeftHemisphere_RightHand_2.mat",
+      "sha256_original": "6e3adb99523037824751259daebf56d57f3d156ca8137eb4c5347cc1dadd7c9f",
+      "header_created_on_day_masked": true,
+      "sha256_public": "26e97e781784176c5edc8ac3f7f6b6e3fe2a5b1b01b8e55fc3ffcc469191e608",
+      "bytes": 358597096
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R4_Kin_LeftHand_1.mat",
+      "sha256_original": "5d72cd994219ca1b26221a1226a151343da2388685f447764682edb84e388e00",
+      "header_created_on_day_masked": true,
+      "sha256_public": "2ab72f8124d84fd3e56c035788a916a120eb576dfc2e88fa1c0d76ada882e61f",
+      "bytes": 293658
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R4_Kin_LeftHand_2.mat",
+      "sha256_original": "e4f03c02e032bac64353b56b6073406dc779fd10ac401cc09d1daf7489ef525f",
+      "header_created_on_day_masked": true,
+      "sha256_public": "1883eadef3de41e29e18cef71c85f160504e968ba967669391f89a34ef5c7083",
+      "bytes": 266412
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R4_Kin_RightHand_1.mat",
+      "sha256_original": "361830050f3e288aa0f02284162bbff0996fac4f0ba4c52b607c9ced81c67c34",
+      "header_created_on_day_masked": true,
+      "sha256_public": "3c4d99096ae13e08658e204820886710f44bdccb3a3dcf18f50b2731ce9afbbc",
+      "bytes": 318063
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R4_Kin_RightHand_2.mat",
+      "sha256_original": "aa7b7c2c48e51d85954787cc2f517f8d97a5243a96f0343607f51b580f1510c8",
+      "header_created_on_day_masked": true,
+      "sha256_public": "870b4b34b2578e3a8cb325bf514ec2efabd265397799a5b6c86306cc22ecb9f0",
+      "bytes": 211303
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R4_RightHemisphere_LeftHand_1.mat",
+      "sha256_original": "d87345b0acb9d329ca1ae2e4675c5bff8bd2d8daff31ebf9f693666db79fbb2b",
+      "header_created_on_day_masked": true,
+      "sha256_public": "94f09129bad1e7d5ce75a0e6a86e5bc48decb3f01773462a4e5df721ad1e0558",
+      "bytes": 266979346
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R4_RightHemisphere_LeftHand_2.mat",
+      "sha256_original": "291cb0a39fc22e9fa54b7667710db0d11b35e0b0d39e3359047e69f394a45547",
+      "header_created_on_day_masked": true,
+      "sha256_public": "16c6b947bf3a9afe5235097ceff1c809a0cfb225005fd67d1dda893ce20adea4",
+      "bytes": 282744513
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R4_RightHemisphere_RightHand_1.mat",
+      "sha256_original": "987d0e5e5973971a16b043c258ad2d8f5dabeb636c906278d1673b0d21d480f2",
+      "header_created_on_day_masked": true,
+      "sha256_public": "22ef1e8d8add9d7371d3354e6c92076a59a937c5b230507fdb333b50324dee43",
+      "bytes": 567103607
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R4_RightHemisphere_RightHand_2.mat",
+      "sha256_original": "309b321a5ade36d81c81c6cd8189b8771374950c7fcad0cc3ecace5faf944aa0",
+      "header_created_on_day_masked": true,
+      "sha256_public": "60f4814d83b120537e5a6f31bc798d37adcac8d3a167685119505631113267ac",
+      "bytes": 266990867
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R5_Kin_LeftHand_1.mat",
+      "sha256_original": "ad77b2570ccc45e6a6fd225b55aeb8bb483bbb768f2187df79c0d2076919f145",
+      "header_created_on_day_masked": true,
+      "sha256_public": "d5768733710cecd82df969fd06a7fefdc13a65c00f0b5caa3fe1bf794e3379a9",
+      "bytes": 293960
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R5_Kin_LeftHand_2.mat",
+      "sha256_original": "20ddd31a5209c66f5b3823bd04727659c4db3f14bef875dac3f18886e2680770",
+      "header_created_on_day_masked": true,
+      "sha256_public": "19bca24c9093962f0ce56407fb393953e274ed901e8edbd39b65927c67c7c704",
+      "bytes": 354121
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R5_Kin_RightHand_1.mat",
+      "sha256_original": "b8ebc64c1fcf7170d2b0c85267476bf9347056ffe557a1f1724d10e9aee233b1",
+      "header_created_on_day_masked": true,
+      "sha256_public": "c937ca6b523f71a6fa99e6265bf3ec98f2465729a0637068a9d83772cd10eb87",
+      "bytes": 202798
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R5_Kin_RightHand_2.mat",
+      "sha256_original": "05427eec86660c5780b50ca07074e51fb3bfecb720404ab61529ddc955345af9",
+      "header_created_on_day_masked": true,
+      "sha256_public": "620d8d8e8687b202bb4179f0a21f6260598329bd7c7d91f1395f405b92e9f9ad",
+      "bytes": 218942
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R5_RightHemisphere_LeftHand_1.mat",
+      "sha256_original": "91ca67ca2767e5f41e5caa1ce090a73440138ba75fd3fc1b8ae2ede1780bcf8b",
+      "header_created_on_day_masked": true,
+      "sha256_public": "92a7785ca952a1fe99cba3c754c55c3e3718669d75de4283fc21d5c3c5d37d76",
+      "bytes": 204606079
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R5_RightHemisphere_LeftHand_2.mat",
+      "sha256_original": "f0ab16b49250ee3ee9f514504097c5c085190378fa56dd67e767d81a62edc832",
+      "header_created_on_day_masked": true,
+      "sha256_public": "846868d6e2fb6115ba46e99f9b2688b5b6c81a29891d94265fc77d13845166f9",
+      "bytes": 218469892
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R5_RightHemisphere_RightHand_1.mat",
+      "sha256_original": "b7f1bcc6d54bd99a79c02c211adb54726832c2c5d451fcdb7d5e44f7e9774112",
+      "header_created_on_day_masked": true,
+      "sha256_public": "5a64d687146534935f167c90570448c0c3ae5fd87e0d606aec12739b12e8e0ce",
+      "bytes": 215461160
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R5_RightHemisphere_RightHand_2.mat",
+      "sha256_original": "cdb379ce3715514de27186698561beaa60a5a3375ace619e73717b48d94e3e92",
+      "header_created_on_day_masked": true,
+      "sha256_public": "90012899bbdd3b1c9a3102a07248d65af8c7654464fd8e4ed4398821ffa06b0c",
+      "bytes": 175706094
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R6_Kin_LeftHand_1.mat",
+      "sha256_original": "c0dec5151800fdaaecb7cf19ba07a4404c59a66281ee119531c2372781c119de",
+      "header_created_on_day_masked": true,
+      "sha256_public": "61927562ecdd94f5ceb6ec566dc55aba22da7f53a6c92963910fd7735773488b",
+      "bytes": 189271
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R6_Kin_LeftHand_2.mat",
+      "sha256_original": "9acd5f7018711f7cf6b7c05eb5744ea4c0a170e79791ed16f980be7bf24b0c95",
+      "header_created_on_day_masked": true,
+      "sha256_public": "3bf440ee34caf1e06a61e33bcf65a305e1ae8d663c90d1f614ca2583db526798",
+      "bytes": 194468
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R6_Kin_RightHand_1.mat",
+      "sha256_original": "f0deb94847964fd9d5310232ea871e87fcb3d5da4166e39f9ea69cd2de22f936",
+      "header_created_on_day_masked": true,
+      "sha256_public": "45950f92e2838e3dce13079ecf1de75eb612166681c24baafea6e9f34ae31da9",
+      "bytes": 169905
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R6_Kin_RightHand_2.mat",
+      "sha256_original": "6790be5fee58b5d459c5c44defe399493f34aea2550952d01d64bd9be1a64764",
+      "header_created_on_day_masked": true,
+      "sha256_public": "bde086c657a843c325301454c72e262a2cc470af025e163679c1925f0ac44d22",
+      "bytes": 195398
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R6_RightHemisphere_LeftHand_1.mat",
+      "sha256_original": "dc137c03632e86e586995ab97f0e2e5e7cb2962e84f641affbfeb2b96d607d2b",
+      "header_created_on_day_masked": true,
+      "sha256_public": "1c7fc66183f66c305dcc4b7dad20d261b39427d044207b0af5754aadbd50b54d",
+      "bytes": 166625908
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R6_RightHemisphere_LeftHand_2.mat",
+      "sha256_original": "f7c4ce38a4b43d0255de53b2b9c8a6c35883617a2ea05d89102f37ee5b673560",
+      "header_created_on_day_masked": true,
+      "sha256_public": "ab6509dcbeb453a978a44c87ce5344d20d7e11dae94d2d54c2033cbfc7ccb043",
+      "bytes": 177326767
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R6_RightHemisphere_RightHand_1.mat",
+      "sha256_original": "99ac0ca68b27bb32c77aa00142b269a1ed02db5afae0b15ea8acb7495957c0c1",
+      "header_created_on_day_masked": true,
+      "sha256_public": "87f6a3df150e79c3ab9f915ffe1714634cfb00844c3de0975b8e3d886ee16abe",
+      "bytes": 158427976
+    },
+    {
+      "file": "sourcedata/zenodo-4761390/R6_RightHemisphere_RightHand_2.mat",
+      "sha256_original": "67e5cc7c1b40905ed39f362f0bb568a1d91ca2ab7773c8fc0ba087bbb55b550c",
+      "header_created_on_day_masked": true,
+      "sha256_public": "ba0420cc6d06dd0f38ec9a597929ee4a0ccfb6807a09cacbe5a92fb0935ebbd1",
+      "bytes": 182170656
+    }
+  ]
+}
