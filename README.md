@@ -49,3 +49,26 @@ and after masking.
 ## License
 
 CC-BY-4.0
+
+## Additional metadata and localisation (added 2026-10-08)
+
+Compiled after the upload from the article, its supplement and the source deposit (each statement names its source). Text and sidecar metadata only; no data file was changed.
+
+**Recording system.** Nihon Kohden at UCI (128 ch, 5000 Hz) and CPMC (128 ch, 1000 Hz); Tucker Davis Technologies at UCSF (128 ch, 3052 Hz); signals not at 1000 Hz were low-pass filtered at 500 Hz and downsampled to 1000 Hz (paper Methods). Deposit SDATA.info.sampling_rate = 1000 for all six; L1/L2 also carry analog_sr 24414.0625 (TDT analog rate).
+
+**Reference scheme.** Common average reference applied in the paper's preprocessing; notch 60/120/180 Hz (paper Methods). Whether the deposited SDATA.data is pre- or post-CAR is not stated (n/a).
+
+**Electrode types.** Subdural grids and strips; spacing 1 cm in four patients and 4 mm in the other two (paper "Electrode localization"). 752 electrodes in total, 82 removed for noise and 5 for epileptic activity -> 665 analysed (paper Methods).
+
+**Localisation.** Electrode locations visualised on each patient's 3D cortical reconstruction by co-registering post-operative CT to pre-operative MRI (Stolk et al. 2018 pipeline); each electrode was categorised with the Desikan-Killiany parcellation; pooled proportions are shown per hemisphere in Figure 2-figure supplement 1 (premotor: superior frontal, caudal middle frontal, pars opercularis; sensorimotor: pre-/post-central; parietal: supramarginal, superior parietal, inferior parietal; 70% of electrodes in these parcels). Per-electrode coordinates/labels are not deposited.
+
+### Regions per participant (as published; no coordinates exist)
+
+| participant | region (as stated) | hemisphere | contacts | source |
+|---|---|---|---|---|
+| cohort-left(L1-L3) | Superior frontal; Caudal middle frontal; Opercularis | left | n/a | doi:10.7554/eLife.69977, Figure 2-figure supplement 1 (premotor group |
+| cohort-left(L1-L3) | Pre-central; Post-central | left | n/a | doi:10.7554/eLife.69977, Figure 2-figure supplement 1 (sensorimotor) |
+| cohort-left(L1-L3) | Supra marginal; Superior parietal; Inferior parietal | left | n/a | doi:10.7554/eLife.69977, Figure 2-figure supplement 1 (parietal) |
+| cohort-right(R4-R6) | Superior frontal; Caudal middle frontal; Opercularis | right | n/a | doi:10.7554/eLife.69977, Figure 2-figure supplement 1 |
+| cohort-right(R4-R6) | Pre-central; Post-central | right | n/a | doi:10.7554/eLife.69977, Figure 2-figure supplement 1 |
+| cohort-right(R4-R6) | Supra marginal; Superior parietal; Inferior parietal | right | n/a | doi:10.7554/eLife.69977, Figure 2-figure supplement 1 |

@@ -8,7 +8,7 @@
   "HowToAcknowledge": "Please cite Merrick CM, Dixon TC, Breska A, Lin J, Chang EF, King-Stephens D, Laxer KD, Weber PB, Carmena J, Knight RT, Ivry RB (2022). Left hemisphere dominance for bilateral kinematic encoding in the human brain. eLife 11:e69977. doi:10.7554/eLife.69977, and the data record doi:10.5281/zenodo.4761390.",
   "Funding": ["National Institutes of Health NS097480 (to Robert T. Knight, Richard B. Ivry, Jose Carmena)"],
   "EthicsApprovals": ["Procedures approved by the institutional review boards at the hospitals and the Committee for Protection of Human Subjects, University of California, Berkeley (protocol 2010-02-783); informed consent from all patients (Merrick et al. 2022)."],
-  "ReferencesAndLinks": ["https://doi.org/10.7554/eLife.69977", "https://doi.org/10.1101/2021.05.01.442295", "https://doi.org/10.5281/zenodo.4761390", "https://github.com/cmerrick15/Asymmetry_ECoG_dataset"],
+  "ReferencesAndLinks": ["https://doi.org/10.7554/eLife.69977", "https://doi.org/10.1101/2021.05.01.442295", "https://doi.org/10.5281/zenodo.4761390", "https://github.com/cmerrick15/Asymmetry_ECoG_dataset", "https://www.biorxiv.org/content/10.1101/2021.05.01.442295v1"],
   "DatasetDOI": "doi:10.5281/zenodo.4761390",
   "Keywords": ["electrocorticography", "ECoG", "reaching", "motor control", "kinematics", "hemispheric asymmetry", "ipsilateral", "epilepsy"],
   "GeneratedBy": [

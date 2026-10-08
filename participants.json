@@ -23,5 +23,11 @@
   },
   "recording_site": {
     "Description": "Hospital, inferred from the release session codes (EC = UCSF, IR = UCI, CP = CPMC) and the stored analog-channel rates; matches the paper's 2 patients per site"
+  },
+  "diagnosis": {
+    "Description": "diagnosis"
+  },
+  "implant_type": {
+    "Description": "implant type"
   }
 }
