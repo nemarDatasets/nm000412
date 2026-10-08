@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "ECoG hemispheric asymmetry during reaching (Merrick et al. 2022): authors' 1000 Hz intracranial exports with reach kinematics",
+  "description": "Intracranial ECoG recordings from six patients with intractable epilepsy implanted with subdural grids over the left (n=3) or right (n=3) hemisphere, collected while they performed an instructed-delay reaching task with each arm. The release contains the authors' 1000 Hz neural exports together with reach kinematics, supporting analysis of hemispheric asymmetry in the encoding of bilateral arm movements. It is a BIDS repackaging of the authors' public Zenodo release.",
+  "methods_description": "Recordings were made at UC Irvine (Nihon Kohden, 5000 Hz), UCSF (Tucker Davis Technologies, 3052 Hz) and California Pacific Medical Center (Nihon Kohden, 1000 Hz). Signals not recorded at 1000 Hz were low-pass filtered at 500 Hz and downsampled to 1000 Hz. Patients performed an instructed-delay reaching task on a touchscreen, with two blocks of 40 trials per arm in counterbalanced order. Kinematics are provided at 100 Hz.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Christina M. Merrick": {
       "orcid": "0000-0003-4966-9138"
@@ -24,6 +29,33 @@
       "orcid": "0000-0003-4728-5130"
     }
   },
+  "keywords": [
+    {
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+    },
+    {
+      "term": "ECoG"
+    },
+    {
+      "term": "reaching"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "kinematics"
+    },
+    {
+      "term": "hemispheric asymmetry"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.4761390",
@@ -57,14 +89,11 @@
       "award_number": "NS097480"
     }
   ],
-  "title": "ECoG hemispheric asymmetry during reaching (Merrick et al. 2022): authors' 1000 Hz intracranial exports with reach kinematics",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "12.12 GB (121 files)"
   ],
@@ -76,36 +105,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "Intracranial electrocorticography (ECoG) recordings from six patients with intractable epilepsy implanted with subdural grids, three with left-hemisphere and three with right-hemisphere implants. Patients performed an instructed-delay reaching task on a touchscreen with each arm, and the dataset provides 1000 Hz neural exports together with reach kinematics. It is a BIDS repackaging of the authors' public release supporting the study of left hemisphere dominance for bilateral kinematic encoding.",
-  "methods_description": "Recordings were made at UC Irvine (5000 Hz, Nihon Kohden), UCSF (3052 Hz, Tucker Davis Technologies) and California Pacific Medical Center (1000 Hz, Nihon Kohden). UCI and UCSF data were low-pass filtered at 500 Hz and downsampled to 1000 Hz. Patients performed an instructed-delay reaching task with two blocks of 40 trials per arm in counterbalanced order. Kinematics (position, speed, x, y, z, theta, phi) are provided at 100 Hz.",
-  "keywords": [
-    {
-      "term": "Electrocorticography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
-    },
-    {
-      "term": "ECoG"
-    },
-    {
-      "term": "reaching"
-    },
-    {
-      "term": "motor control"
-    },
-    {
-      "term": "kinematics"
-    },
-    {
-      "term": "hemispheric asymmetry"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    }
-  ],
-  "source_hash": "1b4e6a4d819225b6e245f3f097df91b01465c230edecd881bc199cfd9138e1d6"
+  "source_hash": "2c8b6ef230c5f95754f35cec04194b02cda7f5f188b92196166a875b9c0b65d6"
 }
