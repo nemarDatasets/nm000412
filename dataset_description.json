@@ -3,17 +3,63 @@
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC-BY-4.0",
-  "Authors": ["Christina M. Merrick", "Tanner C. Dixon", "Assaf Breska", "Jack J. Lin", "Edward F. Chang", "David King-Stephens", "Kenneth D. Laxer", "Peter B. Weber", "Jose M. Carmena", "Robert T. Knight", "Richard B. Ivry"],
+  "Authors": [
+    "Christina M. Merrick",
+    "Tanner C. Dixon",
+    "Assaf Breska",
+    "Jack J. Lin",
+    "Edward F. Chang",
+    "David King-Stephens",
+    "Kenneth D. Laxer",
+    "Peter B. Weber",
+    "Jose M. Carmena",
+    "Robert T. Knight",
+    "Richard B. Ivry"
+  ],
   "Acknowledgements": "Data release: Zenodo record 4761390 'ECoG_Hemispheric_Asymmetry_dataset' (creator: Christina Merrick). BIDS packaging: ieeg-nemar-20261005 campaign (batch-3, lane W2); the converter applies no signal processing.",
   "HowToAcknowledge": "Please cite Merrick CM, Dixon TC, Breska A, Lin J, Chang EF, King-Stephens D, Laxer KD, Weber PB, Carmena J, Knight RT, Ivry RB (2022). Left hemisphere dominance for bilateral kinematic encoding in the human brain. eLife 11:e69977. doi:10.7554/eLife.69977, and the data record doi:10.5281/zenodo.4761390.",
-  "Funding": ["National Institutes of Health NS097480 (to Robert T. Knight, Richard B. Ivry, Jose Carmena)"],
-  "EthicsApprovals": ["Procedures approved by the institutional review boards at the hospitals and the Committee for Protection of Human Subjects, University of California, Berkeley (protocol 2010-02-783); informed consent from all patients (Merrick et al. 2022)."],
-  "ReferencesAndLinks": ["https://doi.org/10.7554/eLife.69977", "https://doi.org/10.1101/2021.05.01.442295", "https://doi.org/10.5281/zenodo.4761390", "https://github.com/cmerrick15/Asymmetry_ECoG_dataset", "https://www.biorxiv.org/content/10.1101/2021.05.01.442295v1"],
-  "DatasetDOI": "doi:10.5281/zenodo.4761390",
-  "Keywords": ["electrocorticography", "ECoG", "reaching", "motor control", "kinematics", "hemispheric asymmetry", "ipsilateral", "epilepsy"],
-  "GeneratedBy": [
-    {"Name": "Authors' preprocessing (Merrick et al. 2022)", "Description": "Exports at 1000 Hz (UCI 5000 Hz and UCSF 3052 Hz recordings were anti-alias low-pass filtered at 500 Hz and downsampled to 1000 Hz per the paper); channels listed as bad in the release metadata are absent. Whether common-average referencing and notch filtering are included is not stated in the release.", "CodeURL": "https://github.com/cmerrick15/Asymmetry_ECoG_dataset"},
-    {"Name": "b3w2_convert_c-merrick.py", "Description": "Lossless re-packaging of SDATA.data into BrainVision (float32) and kin_mat into _physio.tsv.gz, with BIDS sidecars; no further processing.", "CodeURL": "n/a"}
+  "Funding": [
+    "National Institutes of Health NS097480 (to Robert T. Knight, Richard B. Ivry, Jose Carmena)"
   ],
-  "SourceDatasets": [{"DOI": "doi:10.5281/zenodo.4761390", "URL": "https://zenodo.org/records/4761390", "Version": "Zenodo record 4761390 (published 2021-05-14)"}]
+  "EthicsApprovals": [
+    "Procedures approved by the institutional review boards at the hospitals and the Committee for Protection of Human Subjects, University of California, Berkeley (protocol 2010-02-783); informed consent from all patients (Merrick et al. 2022)."
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.7554/eLife.69977",
+    "https://doi.org/10.1101/2021.05.01.442295",
+    "https://doi.org/10.5281/zenodo.4761390",
+    "https://github.com/cmerrick15/Asymmetry_ECoG_dataset",
+    "https://www.biorxiv.org/content/10.1101/2021.05.01.442295v1"
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000412",
+  "Keywords": [
+    "electrocorticography",
+    "ECoG",
+    "reaching",
+    "motor control",
+    "kinematics",
+    "hemispheric asymmetry",
+    "ipsilateral",
+    "epilepsy"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Authors' preprocessing (Merrick et al. 2022)",
+      "Description": "Exports at 1000 Hz (UCI 5000 Hz and UCSF 3052 Hz recordings were anti-alias low-pass filtered at 500 Hz and downsampled to 1000 Hz per the paper); channels listed as bad in the release metadata are absent. Whether common-average referencing and notch filtering are included is not stated in the release.",
+      "CodeURL": "https://github.com/cmerrick15/Asymmetry_ECoG_dataset"
+    },
+    {
+      "Name": "b3w2_convert_c-merrick.py",
+      "Description": "Lossless re-packaging of SDATA.data into BrainVision (float32) and kin_mat into _physio.tsv.gz, with BIDS sidecars; no further processing.",
+      "CodeURL": "n/a"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5281/zenodo.4761390",
+      "URL": "https://zenodo.org/records/4761390",
+      "Version": "Zenodo record 4761390 (published 2021-05-14)"
+    }
+  ],
+  "Version": "1.0.0"
 }
