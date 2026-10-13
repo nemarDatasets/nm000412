@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000412-blue)](https://doi.org/10.82901/nemar.nm000412)
+
 # ECoG hemispheric asymmetry during reaching (Merrick et al. 2022): authors' 1000 Hz exports
 
 Intracranial recordings from **six patients with intractable epilepsy** implanted with subdural grids, three with
