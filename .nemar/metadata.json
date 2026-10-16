@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Merrick-2022-left-10.7554/elife.69977",
+  "title": "ECoG hemispheric asymmetry during reaching (Merrick et al. 2022): authors' 1000 Hz intracranial exports with reach kinematics",
   "description": "Intracranial electrocorticography (ECoG) recordings from six epilepsy patients with subdural grid implants, three in the left hemisphere and three in the right, performing an instructed-delay reaching task with each arm on a touchscreen. This BIDS derivative repackages the authors' 1000 Hz exports together with 100 Hz hand kinematics. The data support investigation of hemispheric asymmetry in the cortical encoding of bilateral arm kinematics.",
   "methods_description": "Recordings were collected at UC Irvine (Nihon Kohden, 5000 Hz), UCSF (Tucker Davis Technologies, 3052 Hz) and California Pacific Medical Center (Nihon Kohden, 1000 Hz). Recordings not at 1000 Hz were low-pass filtered at 500 Hz and downsampled to 1000 Hz. Patients completed two blocks of 40 reaching trials per arm in counterbalanced order. Kinematics (position, speed, x, y, z, theta, phi) are provided at 100 Hz.",
   "license": "CC-BY-4.0",
@@ -108,5 +108,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "2c08b14d8320cc4ff205efc4d78c5a09c1f91e052e0b6a7490f2d47466772593"
+  "source_hash": "e428221ccfb5cd988cd2219be98db06a917725cf6a960e693464405e3f3b9e70"
 }
