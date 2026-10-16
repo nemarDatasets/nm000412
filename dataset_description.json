@@ -1,5 +1,5 @@
 {
-  "Name": "Merrick-2022-left-10.7554/elife.69977",
+  "Name": "ECoG hemispheric asymmetry during reaching (Merrick et al. 2022): authors' 1000 Hz intracranial exports with reach kinematics",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC-BY-4.0",
@@ -61,5 +61,5 @@
       "Version": "Zenodo record 4761390 (published 2021-05-14)"
     }
   ],
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }
