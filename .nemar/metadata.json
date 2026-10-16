@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "ECoG hemispheric asymmetry during reaching (Merrick et al. 2022): authors' 1000 Hz intracranial exports with reach kinematics",
-  "description": "Intracranial electrocorticography (ECoG) recordings from six patients with intractable epilepsy implanted with subdural grids, three with left-hemisphere and three with right-hemisphere coverage. Patients performed an instructed-delay reaching task on a touchscreen with each arm, and the recordings were exported at 1000 Hz alongside reach kinematics. The dataset supports investigation of hemispheric asymmetry in the encoding of bilateral arm kinematics. It is a BIDS re-packaging of the authors' public Zenodo release.",
-  "methods_description": "ECoG was recorded at three clinical sites: UCI (Nihon Kohden, 5000 Hz), UCSF (Tucker Davis Technologies, 3052 Hz) and CPMC (Nihon Kohden, 1000 Hz). Recordings not at 1000 Hz were low-pass filtered at 500 Hz and downsampled to 1000 Hz. Patients performed an instructed-delay reaching task with two blocks of 40 trials per arm, in counterbalanced order. Kinematics were provided at 100 Hz.",
+  "title": "Merrick-2022-left-10.7554/elife.69977",
+  "description": "Intracranial electrocorticography (ECoG) recordings from six epilepsy patients with subdural grid implants, three in the left hemisphere and three in the right, performing an instructed-delay reaching task with each arm on a touchscreen. This BIDS derivative repackages the authors' 1000 Hz exports together with 100 Hz hand kinematics. The data support investigation of hemispheric asymmetry in the cortical encoding of bilateral arm kinematics.",
+  "methods_description": "Recordings were collected at UC Irvine (Nihon Kohden, 5000 Hz), UCSF (Tucker Davis Technologies, 3052 Hz) and California Pacific Medical Center (Nihon Kohden, 1000 Hz). Recordings not at 1000 Hz were low-pass filtered at 500 Hz and downsampled to 1000 Hz. Patients completed two blocks of 40 reaching trials per arm in counterbalanced order. Kinematics (position, speed, x, y, z, theta, phi) are provided at 100 Hz.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -108,5 +108,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "08159ad518cdca1fe4ff1dd869e87dd3ebd88bf4003c8e5a5239a1c815674834"
+  "source_hash": "2c08b14d8320cc4ff205efc4d78c5a09c1f91e052e0b6a7490f2d47466772593"
 }
