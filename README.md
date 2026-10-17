@@ -25,8 +25,8 @@ include the paper's common-average reference and 60/120/180 Hz notch filters. Th
 - `sub-L1`...`sub-R6` = release patient IDs. `task-reach`, `acq-lefthand` / `acq-righthand` = arm used,
   `run-1` / `run-2` = block.
 - `*_ieeg.vhdr`: `SDATA.data` (float32 BrainVision; values are the stored float64 values rounded to float32). Channel
-  names are as in `SDATA.info.channel_labels`. The release does not give units; the magnitudes differ by site (see
-  `task-reach_channels.json`).
+  names are as in `SDATA.info.channel_labels`. The release does not give units; the magnitudes differ by site, so the
+  unit is set per subject (see "Units").
 - `*_recording-kinematics_physio.tsv.gz`: the release `kin_mat` (position, speed, x, y, z, theta, phi) at 100 Hz. The
   paper estimated the movement profiles from the button and touch times. `StartTime` 0 assumes that the kinematics start
   with the neural export: the lengths agree at 10:1 to within one sample, but the release does not state the alignment.
@@ -74,3 +74,19 @@ Compiled after the upload from the article, its supplement and the source deposi
 | cohort-right(R4-R6) | Superior frontal; Caudal middle frontal; Opercularis | right | n/a | doi:10.7554/eLife.69977, Figure 2-figure supplement 1 |
 | cohort-right(R4-R6) | Pre-central; Post-central | right | n/a | doi:10.7554/eLife.69977, Figure 2-figure supplement 1 |
 | cohort-right(R4-R6) | Supra marginal; Superior parietal; Inferior parietal | right | n/a | doi:10.7554/eLife.69977, Figure 2-figure supplement 1 |
+
+## Units (corrected 2026-10-17, version 1.0.3)
+
+The release does not state units, and the stored magnitudes differ by a factor of about 1e6 between sites: the UCSF
+(Tucker Davis Technologies) and CPMC exports (sub-L1, sub-L2, sub-R5, sub-R6) have median absolute values of about
+5e-6 to 3e-5, the UCI exports (sub-L3, sub-R4) about 20-40. Only one reading is physically possible for each group:
+read as volts the first group is 5-30 µV, typical for ECoG, while the second group would be 20-40 V; read as
+microvolts the second group is 20-40 µV, while the first would be 5-30 pV. So the first group is in V and the second in
+µV. Up to version 1.0.2 every BrainVision header said `unscaled` (MNE reads it as V) and channels.tsv said n/a, so
+sub-L3 and sub-R4 came out of MNE 1e6 times too large. Since 1.0.3:
+
+- sub-L3 and sub-R4: BrainVision header unit `µV` (8 `.vhdr` files; resolution 1, values unchanged), channels.tsv `µV`.
+- sub-L1, sub-L2, sub-R5, sub-R6: channels.tsv `V`; headers unchanged (`unscaled`, resolution 1, read as V).
+
+No value in any `.eeg` file was changed. The eight corrected `.vhdr` headers are stored in git (plain text) rather
+than as annexed files.

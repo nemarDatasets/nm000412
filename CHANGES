@@ -1,3 +1,7 @@
+1.0.3 2026-10-17
+  - Units: sub-L3 and sub-R4 (UCI exports, values in µV) BrainVision header unit 'unscaled' -> 'µV' (8 .vhdr, now plain git files) and channels.tsv units µV; sub-L1, sub-L2, sub-R5, sub-R6 (values in V) channels.tsv units V. MNE returned the UCI values 1e6 times too large before. .eeg/.vmrk unchanged.
+  - task-reach_channels.json, README.md ("Units"): unit assignment explained.
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 
