@@ -1,3 +1,6 @@
+Unreleased (branch fix-20261030, Oct 2026)
+  - README: section 'Units and channel types: open points' (site-dependent scale, ~1e6 between UCI and UCSF/CPMC exports, unit not stated; depth-like electrode names typed ECOG without a source; the authors' 60 Hz line filter). No data or sidecar change.
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 

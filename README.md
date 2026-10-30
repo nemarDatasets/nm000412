@@ -74,3 +74,29 @@ Compiled after the upload from the article, its supplement and the source deposi
 | cohort-right(R4-R6) | Superior frontal; Caudal middle frontal; Opercularis | right | n/a | doi:10.7554/eLife.69977, Figure 2-figure supplement 1 |
 | cohort-right(R4-R6) | Pre-central; Post-central | right | n/a | doi:10.7554/eLife.69977, Figure 2-figure supplement 1 |
 | cohort-right(R4-R6) | Supra marginal; Superior parietal; Inferior parietal | right | n/a | doi:10.7554/eLife.69977, Figure 2-figure supplement 1 |
+
+## Units and channel types: open points (fix-20261030, Oct 2026)
+
+**Units differ by site and are not stated.** No source gives a unit or gain for `SDATA.data`: not the Zenodo record, the
+release `.mat` files (`SDATA.info` has no unit field), the article (doi:10.7554/eLife.69977) or the authors' code
+(github.com/cmerrick15/Asymmetry_ECoG_dataset, which z-scores the high-frequency band power, so the scale never enters
+the analysis). `units` therefore stays `n/a` and the BrainVision headers say `unscaled`; readers apply a factor of 1.
+The stored values of the UCI exports (sub-L3, sub-R4) are about 10^6 times those of the UCSF and CPMC exports (sub-L1,
+sub-L2, sub-R5, sub-R6): median absolute values about 20-40 against 5e-6 to 3e-5 (`task-reach_channels.json`), and
+robust SDs after a 1 Hz high-pass of 33-51 (sub-L3, sub-R4) against 7.7e-6 (sub-L1) and 2.1e-5 (sub-R5) in the
+first 60 s (check of 17 Oct 2026). The two groups are consistent with microvolts (UCI) and volts (UCSF, CPMC), but no
+source says so: rescale per site before pooling participants, and do not compare absolute amplitudes across sites.
+An earlier branch (`fix-20261017`) labels these units from the amplitudes; it is not merged and is not carried here,
+because units in this collection are set only from a stated source.
+
+**Channel types of sub-L3 and sub-R4 to sub-R6 are not given by the release.** The release lists an electrode type only
+for sub-L1 and sub-L2 (third label list of `SDATA.info.channel_labels`, kept in `source_electrode_type`). For the other
+four participants every channel is typed ECOG because the article and the authors' README describe the patients as
+"implanted with subdural grids". Several electrode names in these participants follow the usual naming of depth
+electrodes: sub-L3 `LAM1`-`LAM9` and `LHH1`-`LHH10`; sub-R4 `RAH`, `LAH`, `RPH`, `LPH` (51 contacts); sub-R5 `LIHA1`-`LIHA4`;
+sub-R6 `RIHA`, `RHPA`, `RIHP`, `LIH` (19 contacts). No source states whether these are depth or subdural electrodes, so
+their type is kept as ECOG and should be treated as unverified; the article analysed contacts over premotor,
+sensorimotor and parietal cortex.
+
+**Filtering.** The authors' code README states that "no filtering has been applied to the neural data yet except for a
+60 hz line filter".
